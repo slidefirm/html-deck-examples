@@ -1,0 +1,117 @@
+{
+  "title": "台灣能源轉型現況",
+  "theme": { "palette": "olive", "font": "sans", "radius": 20, "icon": "duo", "surface": "auto" },
+  "background": { "style": "waves", "seed": 20261116 },
+  "footer": "台灣能源轉型現況｜公開資料整理 2026-11",
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "公開資料整理｜2026 年 11 月",
+      "title": "台灣能源轉型現況",
+      "subtitle": "再生能源十年成長三倍，\n但離 20% 目標還有一段路",
+      "meta": ["資料：經濟部能源署、環境部、中央社"]
+    },
+    {
+      "type": "points",
+      "eyebrow": "2016 → 2025 發電量結構",
+      "title": "十年間，發電結構換了主角",
+      "item": "metric",
+      "highlight": 1,
+      "items": [
+        { "value": "47.7%", "title": "燃氣", "body": "2016 年 31.5%" },
+        { "value": "35.3%", "title": "燃煤", "body": "2016 年 45.9%" },
+        { "value": "13.3%", "title": "再生能源", "body": "2016 年 4.8%" },
+        { "value": "1.1%", "title": "核能", "body": "2016 年 12.0%" }
+      ],
+      "takeaway": "資料：經濟部能源署「發電概況」"
+    },
+    { "type": "statement", "kind": "section", "number": "01", "text": "再生能源長得很快", "sub": "發電量、裝置容量都是十年前的三倍以上" },
+    {
+      "type": "points",
+      "eyebrow": "2016 → 2025",
+      "title": "綠電發電量成長三倍",
+      "item": "metric",
+      "highlight": 1,
+      "items": [
+        { "value": "386 億度", "title": "再生能源發電量", "body": "2016 年 127 億度" },
+        { "value": "22.9 GW", "title": "再生能源裝置容量", "body": "2016 年 4.7 GW" },
+        { "value": "67.7%", "title": "太陽光電占綠電裝置", "body": "2016 年 26.3%" }
+      ],
+      "takeaway": "資料：經濟部能源署「發電概況」「裝置容量概況」"
+    },
+    {
+      "type": "compare",
+      "title": "主力從水力換成太陽光電",
+      "left": { "head": "2016 年", "rows": ["慣常水力 44.2%", "太陽光電 26.3%", "生質能與廢棄物 15.0%", "風力 14.4%"] },
+      "right": { "head": "2025 年", "rows": ["太陽光電 67.7%", "風力 19.7%", "慣常水力 9.3%", "生質能與廢棄物 3.3%"] },
+      "highlight": "right",
+      "marks": "dot",
+      "takeaway": "占再生能源裝置容量的比例｜資料：經濟部能源署"
+    },
+    { "type": "statement", "kind": "section", "number": "02", "text": "但目標還沒達成", "sub": "原訂 2025 年綠電占比 20%" },
+    {
+      "type": "points",
+      "eyebrow": "目標與實際",
+      "title": "兩項指標都還差一截",
+      "item": "metric",
+      "highlight": 2,
+      "items": [
+        { "value": "20%", "title": "原訂綠電發電占比", "body": "政府原訂 2025 年目標" },
+        { "value": "13.3%", "title": "2025 年實際占比", "body": "經濟部能源署統計" },
+        { "value": "15.4 GW", "title": "光電設置量", "body": "原訂目標 20 GW" }
+      ],
+      "takeaway": "資料：經濟部能源署、中央社 2026-02-05"
+    },
+    {
+      "type": "statement",
+      "kind": "quote",
+      "text": "一定會達成，\n只是時程上會往後延",
+      "by": "經濟部長龔明鑫，談綠電 20% 目標"
+    },
+    { "type": "statement", "kind": "section", "number": "03", "text": "接下來的壓力", "sub": "用電成長加快，燃氣依賴進口" },
+    {
+      "type": "points",
+      "eyebrow": "2026 → 2035",
+      "title": "用電成長加快，供給更吃緊",
+      "item": "metric",
+      "highlight": 1,
+      "items": [
+        { "value": "2.5%", "title": "用電年均成長預估", "body": "過去十年 1.24%" },
+        { "value": "1.2 GW", "title": "AI 資料中心申請", "body": "用電申請將近此數" },
+        { "value": "99%", "title": "燃氣靠進口 LNG", "body": "2025 年進口 2,310 萬噸" },
+        { "value": "117%", "title": "接收站負載率", "body": "2021–2025 年平均" }
+      ],
+      "takeaway": "資料：經濟部電力供需報告、環境部能源資訊平台"
+    },
+    {
+      "type": "points",
+      "eyebrow": "政府規劃 2026 → 2035",
+      "title": "三條路一起擴充供給",
+      "item": "icon",
+      "items": [
+        { "icon": "zap", "title": "太陽光電", "body": "每年增設 2 GW" },
+        { "icon": "refresh", "title": "離岸風電", "body": "每年增設 1.5 GW" },
+        { "icon": "layers", "title": "燃氣機組", "body": "十年新增約 26 GW" }
+      ],
+      "takeaway": "資料：環境部能源資訊平台、經濟部電力供需報告"
+    },
+    {
+      "type": "points",
+      "title": "資料來源",
+      "item": "bullet",
+      "items": [
+        { "title": "經濟部能源署", "body": "發電概況、裝置容量概況" },
+        { "title": "經濟部", "body": "114 年度全國電力資源供需報告" },
+        { "title": "環境部能源資訊平台", "body": "電力結構" },
+        { "title": "中央社", "body": "經長談綠電目標、電力供需報告" }
+      ]
+    },
+    {
+      "type": "statement",
+      "kind": "closing",
+      "text": "綠電要跑得比用電更快",
+      "sub": "這份簡報由 html-deck 從一份內容表自動排版產生",
+      "meta": ["資料整理日期 2026-11-16"]
+    }
+  ]
+}
